@@ -1,0 +1,44 @@
+.form-control{
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  &:focus {
+    border-color: @seagreen;
+  }
+}
+textarea.form-control {
+  height: 108px;
+}
+.btn-jocasta {
+  .montserrat;
+  background: @firebrick;
+  text-transform: uppercase;
+  color: white;
+  &:hover {
+    color: @firebrick;
+    background: fadeout(@firebrick, 50%);
+  }
+}
+.help {
+  .montserrat;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.btn,
+.bootstrap-switch,
+.bootstrap-switch .bootstrap-switch-container,
+.bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-on .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-label,
+.bootstrap-switch .bootstrap-switch-handle-on {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.bootstrap-switch {
+  display: block;
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-jocasta,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-jocasta {
+  background: @firebrick;
+  color: white;
+}

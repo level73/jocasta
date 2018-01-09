@@ -1,0 +1,33 @@
+@import  "conf/variables";
+@import  "conf/mixins";
+@import  "conf/typography";
+
+@import "parts/header";
+@import "parts/form";
+
+body {
+  padding-top: 71px;
+}
+header.row {
+  padding-top: 40px;
+  h1 { margin-top: 0px; }
+}
+
+
+.jocasta-status {
+  padding: 5px;
+  margin: -5px;
+  text-align: center;
+  &.jocasta-status-0 {
+    background: @state_NA;
+    color: darken(@state_NA, 25%);
+  }
+  &.jocasta-status-1 {
+    background: @state_NO;
+    color: darken(@state_NO, 25%);
+  }
+  &.jocasta-status-2 {
+    background: @state_OK;
+    color: darken(@state_OK, 25%);
+  }
+}

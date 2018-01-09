@@ -1,0 +1,129 @@
+/*********
+FIREBRICK
+HEX #DA4C43
+RGB 218, 76, 67
+CMYK 9, 85, 77, 1
+
+SEAGREEN
+HEX #ADD2CA
+RGB 173, 210, 202
+CMYK 32, 2, 22, 0
+
+GRANITE
+HEX #939598
+RGB 147, 149, 152
+CMYK 0, 0, 0, 50
+
+CONCRETE
+HEX #58595B
+RGB 88, 89, 91
+CMYK 0, 0, 0, 80
+
+NIGHTBLACK
+HEX #231F20
+RGB 35, 31, 32
+CMYK 0, 0, 0, 100
+**********/
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+.martel {
+  font-family: 'Martel', serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+body {
+  font-family: 'Martel', serif;
+}
+#main-nav {
+  background: #add2ca;
+  border-bottom: none;
+}
+#main-nav .brand {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 22px;
+  color: #da4c43;
+}
+#main-nav .active > a {
+  background: white;
+  color: #da4c43;
+}
+.form-control {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.form-control:focus {
+  border-color: #add2ca;
+}
+textarea.form-control {
+  height: 108px;
+}
+.btn-jocasta {
+  font-family: 'Montserrat', sans-serif;
+  background: #da4c43;
+  text-transform: uppercase;
+  color: white;
+}
+.btn-jocasta:hover {
+  color: #da4c43;
+  background: rgba(218, 76, 67, 0.5);
+}
+.help {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.btn,
+.bootstrap-switch,
+.bootstrap-switch .bootstrap-switch-container,
+.bootstrap-switch.bootstrap-switch-inverse.bootstrap-switch-on .bootstrap-switch-label,
+.bootstrap-switch.bootstrap-switch-off .bootstrap-switch-label,
+.bootstrap-switch .bootstrap-switch-handle-on {
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+.bootstrap-switch {
+  display: block;
+}
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-jocasta,
+.bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-jocasta {
+  background: #da4c43;
+  color: white;
+}
+body {
+  padding-top: 71px;
+}
+header.row {
+  padding-top: 40px;
+}
+header.row h1 {
+  margin-top: 0px;
+}
+.jocasta-status {
+  padding: 5px;
+  margin: -5px;
+  text-align: center;
+}
+.jocasta-status.jocasta-status-0 {
+  background: #939598;
+  color: #545558;
+}
+.jocasta-status.jocasta-status-1 {
+  background: #da4c43;
+  color: #84201a;
+}
+.jocasta-status.jocasta-status-2 {
+  background: #add2ca;
+  color: #5ba595;
+}
